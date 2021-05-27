@@ -18,6 +18,9 @@ import datetime
 # Processing Units logs
 log_device_placement = True
 
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior() 
+
 # Num of multiplications to perform
 n = 10
 
